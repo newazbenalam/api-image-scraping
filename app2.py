@@ -65,7 +65,7 @@ def start(pages, route):
     print(route)
     images_from_api(jsonData, folder_path)
 
-start(5, route_initial) # define how many pages you want to scrap
+start(1, route_initial) # define how many pages you want to scrap
 
 
 
